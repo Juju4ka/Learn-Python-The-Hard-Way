@@ -22,6 +22,10 @@ print "Now I will count the eggs:"
 # 3) 3 + 2 + 1 - 5 + 0 - 0 + 6 = 1 + 6 = 7
 print 3 + 2 + 1 - 5 + 4 % 2 - 1 / 4 + 6
 
+# Calculates the number of eggs and prints this number on the screen
+# Uses floating numbers
+print 3 + 2 + 1 - 5 + 4 % 2 - 1.0 / 4.0 + 6.0
+
 # Prints text specified in quotes on the screen
 print "Is it true that 3 + 2 < 5 - 7?"
 
