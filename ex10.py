@@ -2,17 +2,20 @@ tabby_cat = "\tI'm tabbed in."
 persian_cat = "I'm split\non a line."
 backslash_cat = "I'm \\ a \\ cat."
 
-fat_cat = """
+fat_cat = '''
 I'll do a list:
 \t* Cat food
 \t* Fishies
 \t* Catnip\n\t* Grass
-"""
+'''
 
 print tabby_cat
 print persian_cat
 print backslash_cat
 print fat_cat
+
+# List of Python Escape sequence characters with examples
+# https://linuxconfig.org/list-of-python-escape-sequence-characters-with-examples
 
 print "\n\n"
 print "Escape Sequances"
@@ -36,3 +39,7 @@ print "\t12) Character with 32-bit hex value xxxxxxxx (Unicode only) ", u"\U0000
 print "\t13) ASCII vertical tab (VT) ", "\v*Oranges"
 print "\t14) \\ooo Prints character based on its octal value: \043"
 print "\t15) \\xhh Prints character based on its hex value: \x23" 
+
+print "\n\n"
+print "%r %r" % ("\"Hello ", "coconut\"");
+print "%s %s" % ("\"Hello ", "coconut\"");
